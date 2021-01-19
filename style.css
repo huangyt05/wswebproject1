@@ -58,7 +58,7 @@ body{
 }
 
 main{
-    margin-top: -10vh;;
+    margin-top: -10vh;
 }
 .maintext{
     margin: 0 10vw;
@@ -67,6 +67,8 @@ main{
     color: rgb(209, 209, 209);
     width:35vw;
     border: 2vw;
+    position: relative;
+    z-index: 3;
 }
 
 .middleimg{
@@ -119,10 +121,16 @@ main{
 
 #lefttwo{
     margin-bottom: 8rem;
+    z-index: 2;
+    background-color: black;
+}
+#leftthree{
+    z-index: 2;
 }
 
 #leftfour{
     margin-bottom: 8rem;
+    z-index: 2;
 }
 #rightone{
     float: right;
@@ -130,6 +138,7 @@ main{
 
 #righttwo{
     float: right;
+    z-index: 2;
 }
 
 #rightthree{
@@ -140,17 +149,20 @@ main{
     float: right;
 }
 
+#blindone{
+    position: relative;
+    top:-40vh;
+    margin-bottom: -45vh;
+}
 #blindcontainer1{
     z-index:1;
     position: -webkit-sticky;
     position: sticky;
     top: 20vh;
-
 }
 .blinds{
     width: 35vw;
     height: 1vh;
     background-color: black;
     margin-bottom: 1vh;
-
 }

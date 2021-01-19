@@ -68,3 +68,73 @@ main{
     width:35vw;
     border: 2vw;
 }
+
+.middleimg{
+    text-align: center;
+    margin: 8rem;
+}
+.bigimg{
+    align-content: center;
+    margin: 0 auto;
+    object-fit: cover;
+    width: 80vw;
+    height: 50vh;
+}
+.textimg{
+    text-align: center;
+    margin:0 10vw;
+}
+.subtext{
+    margin: 5rem 10vw;
+    line-height:2rem;
+    font-family: aviano-future;
+    color: rgb(209, 209, 209);
+    border: 2vw;
+    font-size: 2rem;
+    text-align: center;
+}
+.rightimg{
+    width: 30vw;
+    height: 50vh;
+    object-fit: scale-down;
+    float:right;
+    position: relative;
+    top: -5vh;
+    clip-path: polygon(0 0, 70% 0, 100% 30%, 100% 70%, 100% 100%, 30% 100%, 0 70%, 0% 30%);
+}
+.leftimg{
+    width: 30vw;
+    height: 50vh;
+    object-fit: scale-down;
+    position: relative;
+    top: -5vh;
+    clip-path: polygon(0 0, 70% 0, 100% 30%, 100% 70%, 100% 100%, 30% 100%, 0 70%, 0% 30%);
+}
+.paragraph{
+    margin-bottom: 1rem;
+}
+
+#lefttwo{
+    margin-bottom: 8rem;
+}
+#rightone{
+    float: right;
+}
+
+#righttwo{
+    float: right;
+}
+
+#blindcontainer1{
+    z-index:1;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20vh;
+}
+.blinds{
+    width: 35vw;
+    height: 1vh;
+    background-color: black;
+    margin-bottom: 1vh;
+
+}
